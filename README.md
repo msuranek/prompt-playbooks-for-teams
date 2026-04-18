@@ -2,6 +2,15 @@
 
 Kolekce prompt workflow pro týmy, které chtějí AI používat opakovatelně, ne náhodně.
 
+## English Summary
+
+`prompt-playbooks-for-teams` is a collection of repeatable AI workflows for real teams, not just a
+list of isolated prompts. Each playbook is designed around a role, a goal, concrete inputs, a
+prompt sequence, and a human review step.
+
+The goal is to make AI usage portable across teams and reduce the dependency on a single internal
+"AI power user."
+
 ## Záměr
 
 Většina týmů neselže na tom, že by neuměla napsat jeden prompt. Selže na tom, že neexistuje
