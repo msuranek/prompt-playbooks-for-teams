@@ -1,41 +1,55 @@
 # prompt-playbooks-for-teams
 
-Kolekce prompt workflow pro týmy, které chtějí AI používat opakovatelně, ne náhodně.
+A collection of repeatable AI workflows designed for real team usage.
 
-## English Summary
+## Status
 
-`prompt-playbooks-for-teams` is a collection of repeatable AI workflows for real teams, not just a
-list of isolated prompts. Each playbook is designed around a role, a goal, concrete inputs, a
-prompt sequence, and a human review step.
+Docs-first repository.
 
-The goal is to make AI usage portable across teams and reduce the dependency on a single internal
-"AI power user."
+This repository contains practical playbooks that turn isolated prompting into repeatable team
+workflows with clear inputs, human review steps, and expected outputs.
 
-## Záměr
+## Overview
 
-Většina týmů neselže na tom, že by neuměla napsat jeden prompt. Selže na tom, že neexistuje
-společný pracovní postup. Tento repozitář přináší jednoduché playbooky pro různé role.
+Most teams do not struggle with writing a single prompt. They struggle with making AI usage
+consistent across roles and workflows. This repository provides structured playbooks for common
+knowledge work scenarios.
 
-## Aktuální playbooky
+## Current Playbooks
 
 - `playbooks/marketing-linkedin.md`
 - `playbooks/product-interview-summary.md`
 - `playbooks/leadership-decision-memo.md`
 
-## Jak playbook číst
+## Playbook Structure
 
-Každý playbook obsahuje:
+Each playbook includes:
 
-- cíl workflow
-- vstupy
-- prompt sekvenci
-- lidský review checkpoint
-- očekávaný výstup
+- workflow goal
+- required inputs
+- prompt sequence
+- human review checkpoint
+- expected output
 
-## Využití
+## Intended Usage
 
-Repo je vhodné jako:
+- team onboarding
+- internal enablement
+- workshop material
+- operational prompt standardization
 
-- doplněk k workshopům
-- podpůrný materiál pro interní AI adoption
-- evergreen obsah pro GitHub a newsletter
+## Non-Goals
+
+- This repository is not a benchmark of model quality.
+- It does not prescribe one universal prompting style.
+- It does not replace review, subject-matter expertise, or editorial judgment.
+
+## References
+
+- [OpenAI Prompting Guides](https://platform.openai.com/docs/guides)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+## License
+
+No license has been added yet. Add a project license before reusing this repository in other
+contexts.
