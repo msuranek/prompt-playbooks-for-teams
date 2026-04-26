@@ -2,9 +2,6 @@
 
 A collection of repeatable AI workflows designed for real team usage.
 
-## Status
-
-Docs-first repository.
 
 This repository contains practical playbooks that turn isolated prompting into repeatable team
 workflows with clear inputs, human review steps, and expected outputs.
