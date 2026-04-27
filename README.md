@@ -1,52 +1,27 @@
 # prompt-playbooks-for-teams
 
-A collection of repeatable AI workflows designed for real team usage.
+Kolekce prompt workflow které opakovaně používám — strukturované vstupy, kontrolní body, očekávaný výstup.
 
+## O repozitáři
 
-This repository contains practical playbooks that turn isolated prompting into repeatable team
-workflows with clear inputs, human review steps, and expected outputs.
+Jeden dobrý prompt nestačí. Pokud má AI šetřit čas opakovaně, potřebuju mít celý postup zdokumentovaný — co na vstupu, v jakém pořadí promptovat, kde je potřeba lidský pohled před dalším krokem. Tyhle playbooks jsou to co mi funguje pro konkrétní opakující se úkoly.
 
-## Overview
+Každý playbook verzuju jako kód a testuju sadu vstupů pokaždé než změním prompt. Bez toho opravení jednoho problému vytvoří regresi někde jinde.
 
-Most teams do not struggle with writing a single prompt. They struggle with making AI usage
-consistent across roles and workflows. This repository provides structured playbooks for common
-knowledge work scenarios.
+## Playbooks
 
-## Current Playbooks
+- `playbooks/marketing-linkedin.md` — příprava LinkedIn příspěvků z podkladů
+- `playbooks/product-interview-summary.md` — shrnutí uživatelských rozhovorů
+- `playbooks/leadership-decision-memo.md` — strukturování rozhodovacích podkladů
 
-- `playbooks/marketing-linkedin.md`
-- `playbooks/product-interview-summary.md`
-- `playbooks/leadership-decision-memo.md`
+## Struktura každého playbooku
 
-## Playbook Structure
-
-Each playbook includes:
-
-- workflow goal
-- required inputs
-- prompt sequence
-- human review checkpoint
-- expected output
-
-## Intended Usage
-
-- team onboarding
-- internal enablement
-- workshop material
-- operational prompt standardization
-
-## Non-Goals
-
-- This repository is not a benchmark of model quality.
-- It does not prescribe one universal prompting style.
-- It does not replace review, subject-matter expertise, or editorial judgment.
-
-## References
-
-- [OpenAI Prompting Guides](https://platform.openai.com/docs/guides)
-- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- cíl workflow
+- požadované vstupy
+- sekvence promptů
+- kontrolní bod před pokračováním
+- očekávaný výstup
 
 ## License
 
-No license has been added yet. Add a project license before reusing this repository in other
-contexts.
+MIT — viz LICENSE
